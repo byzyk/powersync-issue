@@ -1,0 +1,36 @@
+{
+    "name": "powersync-stuck-issue",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite --port 4444",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@journeyapps/wa-sqlite": "^1.0.0",
+        "@parcel/watcher": "^2.3.0",
+        "@powersync/common": "^1.21.0",
+        "@powersync/kysely-driver": "^1.0.0",
+        "@powersync/web": "^1.12.0",
+        "@tanstack/react-router": "1.82.8",
+        "@tanstack/router-devtools": "1.82.8",
+        "@tanstack/router-vite-plugin": "^1.81.9",
+        "@types/node": "^22.9.3",
+        "@types/react": "^18.3.12",
+        "@types/react-dom": "^18.3.1",
+        "@vitejs/plugin-react-swc": "^3.3.2",
+        "js-logger": "^1.6.1",
+        "kysely": "^0.27.4",
+        "kysely-paginate": "^0.3.1",
+        "react": "18.3.1",
+        "react-dom": "18.3.1",
+        "typescript": "5.7.2",
+        "vite": "^5.4.11",
+        "vite-plugin-node-polyfills": "^0.22.0",
+        "vite-plugin-top-level-await": "^1.4.4",
+        "vite-plugin-wasm": "^3.3.0",
+        "vite-tsconfig-paths": "^5.1.3"
+    }
+}
